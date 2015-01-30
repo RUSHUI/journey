@@ -1,0 +1,127 @@
+ {
+    "code":"1",
+    "data":[
+    {
+        "date":"2014-12-11",
+         "day" : "10",
+        "count" : "6",
+        "total": "50",
+        "remain4": "xxx",
+        "remain5": "xxx",
+        "remain6":"xxx",
+        "content":[
+            {     
+                "id": "1",
+                "title": "考试通知fdgd消息1",
+                "href": "http://www.baidu.com",
+                "type": "1",
+                "remain1": "xxx",
+                "remain2": "xxx",
+                "remain3":"xxx"
+            },
+            {     
+                "id": "1",
+                "title": "考试通655r6756知消息2",
+                "href": "http://www.baidu.com",
+                "type": "1",
+                "remain1": "xxx",
+                "remain2": "xxx",
+                "remain3":"xxx"
+            },
+            {     
+                "id": "1",
+                "title": "考试通655r6756知消息2",
+                "href": "http://www.baidu.com",
+                "type": "1",
+                "remain1": "xxx",
+                "remain2": "xxx",
+                "remain3":"xxx"
+            },{     
+                "id": "1",
+                "title": "考试通655r6756知消息2",
+                "href": "http://www.baidu.com",
+                "type": "1",
+                "remain1": "xxx",
+                "remain2": "xxx",
+                "remain3":"xxx"
+            },{     
+                "id": "1",
+                "title": "考试通655r6756知消息2",
+                "href": "http://www.baidu.com",
+                "type": "1",
+                "remain1": "xxx",
+                "remain2": "xxx",
+                "remain3":"xxx"
+            },
+            {     
+                "id": "1",
+                "title": "考试通655r6756知消息2",
+                "href": "http://www.baidu.com",
+                "type": "1",
+                "remain1": "xxx",
+                "remain2": "xxx",
+                "remain3":"xxx"
+            }
+            
+        ]
+       },
+       {
+        "date":"2014-12-11",
+        "content":[
+            {     
+                "id": "1",
+                "title": "考试e456通知消息1",
+                "href": "http://www.baidu.com",
+                "type": "1",
+                "remain1": "xxx",
+                "remain2": "xxx",
+                "remain3":"xxx"
+            },
+            {     
+                "id": "1",
+                "title": "考试通e465知消息2",
+                "href": "http://www.baidu.com",
+                "type": "1",
+                "remain1": "xxx",
+                "remain2": "xxx",
+                "remain3":"xxx"
+            },
+            {     
+                "id": "1",
+                "title": "考试3454知消息3",
+                "href": "http://www.baidu.com",
+                "type": "1",
+                "remain1": "xxx",
+                "remain2": "xxx",
+                "remain3":"xxx"
+            }
+        ],
+        "day" : "15",
+        "count" : "3",
+        "total": "50",
+        "remain4": "xxx",
+        "remain5": "xxx",
+        "remain6":"xxx"
+       },
+       {
+        "date":"2014-12-11",
+        "content":[
+            {     
+                "id": "1",
+                "title": "考试通4564知消息1",
+                "href": "http://www.baidu.com",
+                "type": "1",
+                "remain1": "xxx",
+                "remain2": "xxx",
+                "remain3":"xxx"
+            }
+        ],
+        "day" : "11",
+        "count" : "1",
+        "total": "50",
+        "remain4": "xxx",
+        "remain5": "xxx",
+        "remain6":"xxx"
+       }
+    ]
+}

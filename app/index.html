@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>RS'S BLOG</title>
+    <link rel="stylesheet" href="css/calendar.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/prefixfree.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="blogname">RS'S BLOG</div>
+        </div>
+        <div class="body">    
+            <div class="colorline"></div>        
+            <div class="personinfo">
+                <div class="name">Pengfei Tan</div>
+                <div class="sex">male</div>
+                <div class="script">chinese, like programing...</div>
+                <div class="script" style="display:none;">年芳25, 未曾有伴, 速来迎娶...</div>
+            </div>
+            <div class="colorline"></div>
+            <div class="content">
+                <ul class="games">
+                    <li><a href="html/catchball.html">game1</a></li>
+                    <li><a href="html/circle.html">game2</a></li>
+                    <li><a href="html/fireCursorAnim.html">game3</a></li>
+                </ul>
+                <ul class="plugins">
+                    <li><a href="html/clock.html">plugins1</a></li>
+                    <li><a href="html/text.html">plugins2</a></li>
+                    <li><a href="html/fireStorm.html">plugins3</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">copyright 个人博客</div>
+    </div>
+    <div id="animTime"></div>
+
+    <div class="nav-calendar">T</div>
+    <div type="calendar"></div>
+    <div class="loading"></div>
+
+    <script src="js/jquery172.js"></script>
+
+    <!-- <script type="text/javascript">
+    $('.loading').animate({
+        'width': '33%'
+    }, 500); //第一个进度节点
+    </script>    
+    <script type="text/javascript">
+    $('.loading').animate({
+        'width': '55%'
+    }, 500); //第二个节点
+    </script>
+    <script type="text/javascript">
+    $('.loading').animate({
+        'width': '78%'
+    }, 500); //第三个节点
+    </script>
+    <script type="text/javascript">
+    $('.loading').animate({
+        'width': '100%'
+    }, 500); //第四个节点
+    </script> -->
+
+    <script src="js/animTime.js"></script>
+    <script src="js/rscalendar.js"></script>
+    <script src="js/artTemplate-native.js"></script>
+    <script>
+    $(function() {
+        $('.loading').fadeOut();
+        $("[type=calendar]").rsCalendar();
+        $(".nav-calendar").hover(function() {            
+            $(".calendar").css({
+                right: 0 + "px"
+            });
+        }, function() {            
+            $(".calendar").css({
+                right: -306 + "px"
+            });
+        });
+        var arrColors=[];
+        $(".colorline").each(function(){
+
+        });
+
+    //     background: -webkit-gradient(linear,100% 0,0 0, 
+    //         color-stop(0, #f00), 
+    //         color-stop(.15, #ffa500), 
+    //         color-stop(.3, #ff0), 
+    //         color-stop(.45, #008000), 
+    //         color-stop(.6, #0ff), 
+    //         color-stop(.75, #00f), 
+    //         color-stop(.9, #4b0082), 
+    //         to(#ee82ee)); 
+     });
+    </script>
+</body>
+
+</html>
